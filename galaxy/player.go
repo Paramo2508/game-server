@@ -1,7 +1,6 @@
 package galaxy
 
 import (
-	"galaxy.io/server/galaxy/events"
 	"galaxy.io/server/galaxy/utils"
 	"github.com/google/uuid"
 )
@@ -17,6 +16,3 @@ type Player struct {
 	Skin uint32
 }
 
-func (player *Player) SendEvent(event events.Event) {
-  panic("unimplemented")
-}
